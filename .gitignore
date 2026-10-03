@@ -23,3 +23,9 @@ htmlcov/
 
 .DS_Store
 Thumbs.db
+
+
+tests/
+
+
+render.yaml
