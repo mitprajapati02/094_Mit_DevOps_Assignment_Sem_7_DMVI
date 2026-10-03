@@ -118,9 +118,9 @@ FastAPI automatically generates interactive Swagger documentation:
 
 ## 🧪 Testing
 
-### Running the Pytest Suite
+### Running the API Smoke Check
 ```bash
-pytest -v
+python -c "from fastapi.testclient import TestClient; from main import app; client = TestClient(app); assert client.get('/students').status_code == 200"
 ```
 
 ### Running the 10-Point Checklist Verification Script
