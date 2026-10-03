@@ -17,8 +17,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="FastAPI - Student CRUD Application",
-    description="PRAJAPATI MITKUMAR JAYANTIBHAI. ENROLL: 202326900094, Assignment . A university student management REST API built with FastAPI using local in-memory storage. ",
-    version="1.0.0",
+    description="PRAJAPATI MITKUMAR JAYANTIBHAI.ENROLL: 202326900094, Assignment .A university student management REST API built with FastAPI using local in-memory storage.",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",
